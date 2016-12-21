@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.koba.graduationthesis4.MainActivity">
+    <item
+        android:id="@+id/searchView"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="@string/search_view"/>
+
+    <item
+        android:id="@+id/renewal"
+        android:orderInCategory="100"
+        android:title="更新"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/new_tab"
+        android:orderInCategory="100"
+        android:title="新しいタブ"
+        app:showAsAction="never"/>
+</menu>
