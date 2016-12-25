@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.koba.graduationthesis4.MainActivity">
+
     <item
         android:id="@+id/searchView"
         android:icon="@drawable/ic_action_search"
@@ -11,10 +12,28 @@
         android:title="@string/search_view"/>
 
     <item
-        android:id="@+id/renewal"
+        android:id="@+id/home"
         android:orderInCategory="100"
-        android:title="更新"
+        android:title="@string/reload"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reload"
+        android:orderInCategory="100"
+        android:title="@string/reload"
         app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/page_back"
+        android:orderInCategory="100"
+        android:title="@string/page_back"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/page_progress"
+        android:orderInCategory="100"
+        android:title="@string/page_progress"
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/action_settings"
@@ -25,6 +44,6 @@
     <item
         android:id="@+id/new_tab"
         android:orderInCategory="100"
-        android:title="新しいタブ"
+        android:title="@string/new_tab"
         app:showAsAction="never"/>
 </menu>

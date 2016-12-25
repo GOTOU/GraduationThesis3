@@ -2,4 +2,8 @@
     <string name="app_name">GraduationThesis4</string>
     <string name="action_settings">設定</string>
     <string name="search_view"></string>
+    <string name="page_back">戻る</string>
+    <string name="page_progress">進む</string>
+    <string name="new_tab">新しいタブ</string>
+    <string name="reload">更新</string>
 </resources>
